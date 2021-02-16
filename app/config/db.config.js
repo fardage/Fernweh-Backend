@@ -1,3 +1,3 @@
 module.exports = {
-    url: "mongodb://localhost:27017/fernweh"
+    url: `mongodb+srv://fernweh-backend-service:${process.env.mongoDbPw}@fernwehdb.jemvi.mongodb.net/fernweh?retryWrites=true&w=majority`
 };
